@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/style.css"><title>Live Classroom · RuralReach AI</title></head>
+<body>
+<header><a class="brand" href="index.html">◈ RuralReach <b>AI</b></a>
+<nav><a href="index.html">Home</a><a href="dashboard.html">Dashboard</a><a class="active" href="classroom.html">Live Class</a><a href="lectures.html">Lectures</a><a href="assignments.html">Assignments</a><a href="assistant.html">AI Tutor</a><a href="communication.html">Communication</a></nav>
+<span class="network"><i id="networkDot" class="status-dot"></i><span id="networkText">STRONG</span></span></header>
+<main class="page">
+<div class="live-head"><div><span class="live-pill">● LIVE</span><label> DIGITAL ELECTRONICS · RR-2048</label><h1>Logic Gates & Digital Circuits</h1><p>Dr. Raman · 128 students connected · Adaptive classroom enabled</p></div><div class="class-code">CLASS CODE<br><b>RR-2048</b><small id="rtcStatus">Signaling offline</small></div></div>
+<div class="classlayout">
+<section>
+<div class="video-shell"><div class="video-top"><span>👨‍🏫 Dr. Raman</span><span id="qualityLabel">720p · Adaptive</span></div>
+<div class="video-stage professor-stage" id="videoStage">
+  <video id="professorVideo" class="professor-video" autoplay muted playsinline hidden></video>
+  <div id="cameraPlaceholder" class="teacher-avatar">DR</div>
+  <div class="live-topic"><span class="live-pill">LIVE LECTURE</span><h2 id="lectureTopic">Logic Gates</h2><p>AND · OR · NOT · Truth Tables</p></div>
+  <div class="camera-badge" id="cameraBadge">📷 Camera Off</div>
+  <div class="data-float">📶 <b id="dataRate">480 KB/min</b><small>adaptive data</small></div>
+</div>
+<div class="rtc-host-controls"><button class="btn" id="hostClassBtn">🔴 Start Live Network Class</button><span id="hostState">Not broadcasting to remote students</span></div><div class="video-controls professor-controls">
+  <button id="cameraBtn">📷 Camera</button><button id="audioBtn">🎤 Mic</button><button id="pauseBtn">Ⅱ Pause</button>
+  <div class="video-track"><div id="liveTrack"></div></div><span id="timeLabel">24:18 / 48:00</span><button id="recordBtn">⏺ Record</button><button id="fullscreenBtn">⛶</button>
+</div></div>
+<div class="quality-row"><button class="quality active" data-q="smart">⚡ Smart Saver</button><button class="quality" data-q="low">📉 Low Data</button><button class="quality" data-q="audio">🎧 Audio + Slides</button></div>
+<div class="notice" id="adaptBanner">Smart Saver is reducing video quality automatically to protect student data.</div>
+<div class="panel participant-panel">
+  <div class="panel-title-row"><label>CLASS PARTICIPANTS</label><span class="live-count" id="liveCount">0 present</span></div>
+  <div id="participantGrid" class="participant-grid"><p class="muted">Loading students...</p></div>
+</div>
+<div class="live-tools">
+  <div class="panel attendance-panel"><div class="panel-title-row"><label>ATTENDANCE</label><button class="mini-btn" id="markAllBtn">Mark Present</button></div><div class="attendance-stats"><div><b id="presentCount">0</b><small>Present</small></div><div><b id="absentCount">0</b><small>Not joined</small></div><div><b id="attendancePct">0%</b><small>Attendance</small></div></div><div id="attendanceList" class="attendance-list"></div></div>
+  <div class="panel chat-panel"><div class="panel-title-row"><label>CLASS CHAT</label><span id="chatStatus">Live</span></div><div id="chatMessages" class="chat-messages"></div><form id="chatForm" class="chat-form"><input id="chatInput" placeholder="Type a message…" maxlength="240" autocomplete="off"><button class="btn" type="submit">Send</button></form></div>
+</div>
+<div class="panel recording-panel"><label>LECTURE RECORDING</label><p id="recordingStatus">Recording is available when the professor camera/microphone is active.</p><a id="recordingDownload" class="btn alt" hidden>⬇ Download Recording</a></div><div class="lesson-grid"><article><b>📑 Live Slides</b><p>Truth tables and gate symbols</p></article><article><b>📊 Attendance</b><p>Live presence tracking</p></article><article><b>📝 Quick Notes</b><p>Save notes locally</p></article></div>
+</section>
+<aside class="class-side">
+<div class="panel network-adaptive-panel"><label>NETWORK INTELLIGENCE</label><h2 id="sideNetwork">STRONG</h2><p id="networkSpeed">4.8 Mbps</p><div class="network-bars" id="networkBars"><i></i><i></i><i></i><i></i><i></i></div><div class="network-meta"><span>Detection</span><b id="networkDetection">Automatic</b></div><div class="network-meta"><span>Connection</span><b id="connectionMode">Online</b></div><div class="network-meta"><span>Latency</span><b id="networkLatency">—</b></div><div class="network-meta"><span>Video Profile</span><b id="videoProfile">720p Adaptive</b></div><div class="network-meta"><span>Data Saver</span><b id="dataSaverState">ON</b></div><button class="btn" id="networkSimulator">Simulate Weak Network</button></div>
+<div class="panel"><label>CLASS MATERIAL</label><a class="side-link" href="lectures.html">📚 Lecture Library <b>→</b></a><a class="side-link" href="assignments.html">📝 Assignment <b>→</b></a><a class="side-link" href="assistant.html">🤖 Ask AI Tutor <b>→</b></a></div>
+<div class="panel"><label>DATA USED</label><div class="big-data" id="dataUsed">3.2 MB</div><p>Saved vs normal HD streaming: <b id="saving">68%</b></p></div>
+</aside></div>
+</main>
+<footer>RuralReach AI · Live learning designed for low connectivity</footer>
+<script src="js/app.js"></script><script src="js/network.js"></script><script src="js/rtc.js"></script><script src="js/classroom.js"></script></body></html>

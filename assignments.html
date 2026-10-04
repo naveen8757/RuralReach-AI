@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/style.css"><title>Assignments · RuralReach AI</title></head>
+<body>
+<header><a class="brand" href="index.html">◈ RuralReach <b>AI</b></a>
+<nav><a href="index.html">Home</a><a href="dashboard.html">Dashboard</a><a href="classroom.html">Live Class</a><a href="lectures.html">Lectures</a><a class="active" href="assignments.html">Assignments</a><a href="assistant.html">AI Tutor</a></nav>
+<span class="network"><i class="status-dot"></i><span class="connection-text">Online</span></span></header>
+<main class="page">
+<label>SMART ASSIGNMENT CENTER</label><h1>Assignments & Practice</h1>
+<p>Receive professor assignments, work offline, and sync your submission when the connection returns.</p>
+<div class="assignment-grid">
+<article class="assignment-card"><div class="assignment-icon">⚡</div><label>DIGITAL ELECTRONICS</label><h2>Logic Gates Worksheet</h2><p>10 questions · Estimated 20 min</p><span class="badge green">Available Offline</span><button class="btn assignment-btn" data-title="Logic Gates Worksheet">Start Assignment →</button></article>
+<article class="assignment-card"><div class="assignment-icon">🐍</div><label>PROGRAMMING</label><h2>Python Functions Challenge</h2><p>8 questions · Estimated 25 min</p><span class="badge green">Available Offline</span><button class="btn assignment-btn" data-title="Python Functions Challenge">Start Assignment →</button></article>
+<article class="assignment-card"><div class="assignment-icon">🔌</div><label>EMBEDDED SYSTEMS</label><h2>Arduino Sensors Task</h2><p>6 questions · Estimated 30 min</p><span class="badge yellow">Sync Later</span><button class="btn assignment-btn" data-title="Arduino Sensors Task">Start Assignment →</button></article>
+</div>
+<section class="panel assignment-panel"><div><label>YOUR SUBMISSIONS</label><h2 id="assignmentStatus">No assignment started</h2><p id="assignmentHint">Choose an assignment above. Your progress is saved on this device.</p></div><div class="track"><div id="assignmentProgress"></div></div><button id="completeAssignment" class="btn">Mark as Completed</button></section>
+</main><footer>RuralReach AI · Learn · Practice · Progress</footer>
+<script src="js/app.js"></script><script src="js/assignments.js"></script>
+</body></html>

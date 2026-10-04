@@ -1,0 +1,52 @@
+{
+  "lectures": [
+    {
+      "id": 1,
+      "title": "Logic Gates & Digital Circuits",
+      "subject": "Electronics",
+      "teacher": "Dr. Raman",
+      "duration": "42 min",
+      "offline": true
+    },
+    {
+      "id": 2,
+      "title": "Python Functions & Modular Programming",
+      "subject": "Programming",
+      "teacher": "Prof. Meena",
+      "duration": "36 min",
+      "offline": true
+    },
+    {
+      "id": 3,
+      "title": "Introduction to Embedded Systems",
+      "subject": "Microcontrollers",
+      "teacher": "Dr. Arun",
+      "duration": "48 min",
+      "offline": false
+    },
+    {
+      "id": 4,
+      "title": "Arrays, Searching & Sorting",
+      "subject": "Data Structures",
+      "teacher": "Prof. Kiran",
+      "duration": "51 min",
+      "offline": false
+    },
+    {
+      "id": 5,
+      "title": "Sensors and Microcontroller Projects",
+      "subject": "Electronics",
+      "teacher": "Dr. Priya",
+      "duration": "39 min",
+      "offline": false
+    },
+    {
+      "id": 6,
+      "title": "HTML, CSS & Responsive Design",
+      "subject": "Web Development",
+      "teacher": "Prof. Vishal",
+      "duration": "44 min",
+      "offline": false
+    }
+  ]
+}

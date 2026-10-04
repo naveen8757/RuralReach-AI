@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="css/style.css"><title>Smart Learning · RuralReach AI</title></head>
+<body><header><a class="brand" href="index.html">◈ RuralReach <b>AI</b></a><nav><a href="dashboard.html">Dashboard</a><a href="lectures.html">Lectures</a><a class="active" href="smart-learning.html">Smart Learning</a><a href="assignments.html">Assignments</a><a href="lecture-ai.html">Lecture AI</a><a href="communication.html">Communication</a></nav><span class="network"><i class="status-dot"></i><span class="connection-text">Online</span></span></header>
+<main class="page">
+<section class="student-welcome"><div><label>ADAPTIVE LEARNING ENGINE</label><h1>Your Smart Learning Path 🧠</h1><p>RuralReach turns your learning activity into a simple, personalized study plan — with an offline-first fallback.</p></div><div class="smart-score"><strong id="masteryScore">0%</strong><span>Learning mastery</span></div></section>
+<section class="analytics-grid"><div class="analytics-card"><b id="streak">0</b><span>Day streak</span></div><div class="analytics-card"><b id="quizCount">0</b><span>Quizzes completed</span></div><div class="analytics-card"><b id="avgScore">0%</b><span>Average quiz score</span></div><div class="analytics-card"><b id="studyMinutes">0</b><span>Study minutes</span></div></section>
+<section class="dashboard-two-col"><div>
+<section class="panel"><label>DIAGNOSTIC CHECK</label><h2>Find your weak areas</h2><p class="muted">Take a short adaptive quiz. Your answers update the mastery map on this device and sync when the server is available.</p><div id="quizArea"></div><button class="btn" id="startQuiz">Start 5-question diagnostic</button></section>
+<section class="panel"><div class="panel-title-row"><div><label>MASTERY MAP</label><h2>Subjects to strengthen</h2></div></div><div id="masteryMap" class="mastery-list"></div></section>
+</div><div>
+<section class="panel"><label>PERSONALIZED NEXT STEPS</label><h2>Recommended for you</h2><div id="recommendations" class="recommendation-list"></div></section>
+<section class="panel"><label>STUDY PLAN</label><h2>Today's focus</h2><div id="studyPlan" class="study-plan"></div><button class="btn alt" id="savePlan">Save today's plan offline</button></section>
+<section class="panel"><label>PROGRESS SYNC</label><h2 id="syncStatus">Checking network…</h2><p class="muted">Learning events are stored locally first. When online, RuralReach syncs them to the central network.</p></section>
+</div></section>
+<section class="cards dashboard-shortcuts"><a href="lecture-ai.html"><b>🤖 Lecture AI</b><p>Ask questions grounded in professor material.</p></a><a href="lectures.html"><b>📥 Offline Library</b><p>Study saved lectures when connectivity is poor.</p></a><a href="dashboard.html"><b>🎓 Student Dashboard</b><p>Return to your classes, attendance and notifications.</p></a></section>
+</main><footer>RuralReach AI · Adaptive Learning Engine</footer><script src="js/app.js"></script><script src="js/smart-learning.js"></script></body></html>
